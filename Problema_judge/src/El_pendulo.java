@@ -26,7 +26,8 @@ public class El_pendulo {
 		ang = teclado.nextDouble();
 		
 		resultado = ((2*3.14*brazo)/360)*ang;
-		System.out.printf("%.2f", resultado);
+		System.out.println(resultado);
+		
 		}
 		
 	}
