@@ -3,7 +3,22 @@ import java.util.Scanner;
 public class Problema_Pesas {
 
 	public static void main(String[] args) {
-		
+		/*
+		 * @param p20 - total pesas de 20
+		 * @param p15 - total pesas de 15
+		 * @param p10 - total pesas de 10
+		 * @param p5  - total pesas de 5
+		 * @param p2  - total pesas de 2
+		 * @param p1  - total pesas de 1
+		 * @param cont20 - contador pesas introducidas de 20
+		 * @param cont15 - contador pesas introducidas de 15
+ 		 * @param cont10 - contador pesas introducidas de 10
+		 * @param cont5  - contador pesas introducidas de 5
+		 * @param cont2  - contador pesas introducidas de 2
+		 * @param cont1  - contador pesas introducidas de 1
+		 * @param x = nº iteracions
+		 * 
+		 */
 		Scanner teclado = new Scanner(System.in);
 		int p10,cont10=0;
 		int p20, cont20=0;
