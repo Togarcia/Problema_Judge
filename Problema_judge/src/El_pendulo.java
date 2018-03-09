@@ -13,9 +13,13 @@ public class El_pendulo {
 	
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
-		
+		double dindisp = 750;
+		double precio = 20;
+		double ancho = 5;
+		double me2;
+		double preciof;
 		double ang;
-		int x = teclado.nextInt();
+		double x = teclado.nextDouble();
 		
 		double resultado,brazo;
 		
@@ -25,9 +29,13 @@ public class El_pendulo {
 		brazo = teclado.nextDouble();
 		ang = teclado.nextDouble();
 		
-		resultado = ((2*3.14*brazo)/360)*ang;
-		System.out.println(resultado);
-		
+		resultado=  ((2*3.14*brazo)/360)*ang;
+		me2= resultado * ancho;
+		preciof = me2 * precio;
+		if(dindisp >= preciof)
+			System.out.println("Si");
+		else
+			System.out.println("No");
 		}
 		
 	}
