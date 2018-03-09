@@ -11,6 +11,7 @@ public class El_pendulo {
  * @param double brazo- per introduir mides deciamls - indica mida del braç
  */
 	
+	
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 		double dindisp = 750;
