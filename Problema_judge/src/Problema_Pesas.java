@@ -28,7 +28,7 @@ public class Problema_Pesas {
 		 * 
 		 * @param cont1 - contador pesas introducidas de 1
 		 * 
-		 * @param x = nº iteracions
+		 * @param x = numero de iteracions
 		 * 
 		 */
 		Scanner teclado = new Scanner(System.in);
@@ -90,4 +90,5 @@ public class Problema_Pesas {
 
 	}
 
+	
 }
